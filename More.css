@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+
+.newest-phones {
+    padding-top: 5rem;
+  }
+  
+  .newest-phones .phones-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phones-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .phones-section .phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+  }
+  
+  .phones .phone {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .phone img {
+    margin-bottom: 1rem;
+  }
+  
+  .phone img:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+  .phone h3 {
+    font-size: 1.6rem;
+  }
+  
+  .phones-section button {
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+
+/* Navbar styling */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+  
+  nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+  }
+  
+  nav .logo i {
+    
+    padding-left: 0.75rem;
+    color: #6e0aef;
+  }
+  nav .bars-menu {
+    display: none;
+  }
+  nav .logo h4 {
+    font-family: "Lalezar", cursive;
+  }
+  
+  nav .nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav .nav-items .nav-item {
+    padding: 0 1rem;
+  }
+  
+  nav .nav-link {
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+  }
+  
+  nav .nav-link:hover {
+    color: #6e0aef;
+  }
+  
+  /* Footer */
+footer {
+  background-color: #f8f7fc;
+  height: 15vh;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.footer-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+

@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
+  
+  nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+  }
+  
+  nav .logo i {
+    color: #6e0aef;
+    padding-left: 0.75rem;
+  }
+  nav .bars-menu {
+    display: none;
+  }
+  nav .logo h4 {
+    font-family: "Lalezar", cursive;
+  }
+  
+  nav .nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav .nav-items .nav-item {
+    padding: 0 1rem;
+  }
+  
+  nav .nav-link {
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+  }
+  
+  nav .nav-link:hover {
+    color: #6e0aef;
+    transition: 1s ease;
+  }
+  
+h2{
+    color: #6e0aef;
+    text-align: center;
+}
+
+.content{
+    border-collapse:collapse ;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 700px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+   margin-left: 22% ;
+   
+}
+.content thead tr {
+    background-color: #6e0aef;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;   
+}
+.content tbody tr.color{
+    font-weight: bold;
+    color: #6e0aef;
+}
+.content th,
+.conteny td{
+    padding: 12px 15px;
+}
+.content tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.content tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content tbody tr:last-of-type{
+border-bottom: 2px solid #6e0aef;
+}
